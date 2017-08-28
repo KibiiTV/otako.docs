@@ -61,6 +61,7 @@ In markdown:
 ### Event Name
 Event description
 ###### Event Name Structure
+
 | Field | Type | Description |
 |-------|------|-------------|
 | message | string | the example data for this example event |
@@ -75,5 +76,5 @@ Event description
     "op":0,
     "s":0
 }
-\```
+```
 ```

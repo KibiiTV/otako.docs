@@ -44,7 +44,7 @@ or with
         "_trace":["otako-prd-main-01", "otako-prd-main-02"]
     },
     "op":12,
-    "s":1,
+    "s":1
 }
 ```
 
