@@ -26,7 +26,7 @@ Since a websocket connection is just a socket connection upgraded over the web (
 Following connection, the gateway will authenticate a user and procceed to reply with either the **HELLO** or **AUTH_ERROR** event.
 ```json
 {
-    "e":"AUTH_ERROR",
+    "e":"GATEWAY_ERROR",
     "d":{
         "message":"ERR_TOKEN_INVALID",
         "code":0
@@ -38,7 +38,7 @@ Following connection, the gateway will authenticate a user and procceed to reply
 or with
 ```json
 {
-    "e":"HELLO",
+    "e":"GATEWAY_HELLO",
     "d":{
         "ping_inv":15432,
         "_trace":["otako-prd-main-01", "otako-prd-main-02"]
