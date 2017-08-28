@@ -23,7 +23,7 @@ Since a websocket connection is just a socket connection upgraded over the web (
 
 
 
-Following connection, the gateway will authenticate a user and procceed to reply with either the **HELLO** or **AUTH_ERROR** event.
+Following connection, the gateway will authenticate a user and proceed to reply with either the **HELLO** or **AUTH_ERROR** event.
 ```json
 {
     "e":"GATEWAY_ERROR",
