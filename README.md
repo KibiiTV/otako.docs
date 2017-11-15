@@ -1,3 +1,4 @@
-# otako-docs
+# otako.docs
+This repository contains to-do lists, feature planning, documentation and specification as to how Otako works.
 
-## This is the documentation and logic file for the Otako backend and client, you'll see more information on how this works in the rest of the file. This file will also be avaliable on otakoapp documentation
+Use this repository if you're looking to catch a feature to develop on, check out our to-do list, or read up on how Otako works.
